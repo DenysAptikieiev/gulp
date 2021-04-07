@@ -5,8 +5,12 @@ For run Gulp, enter to terminal: (gulp)
 
 Для правильной работы gulpfile.js, должна быть правильная иерархия папок!
 
-/assets/js/app.js
-       /scss/mian.scss or (.less)
-       /fonts/fonts.ttf
-       /img/images.{png,svg,jpg,gif,ico,webp}
-       /index.html
+{
+       assets: {
+              scss:{mian.scss or (.less)},
+              fonts:{fonts.ttf},
+              img:{images.{png,svg,jpg,gif,ico,webp}},
+              js:{}
+              index.html,
+       }
+}

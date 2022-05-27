@@ -10,14 +10,14 @@ let path = {
         css: project_folder + "/css/",
         js: project_folder + "/js/",
         img: project_folder + "/img/",
-        fonts: project_folder + "/fonts/",
+        fonts: project_folder + "/fonts",
     },
     src: {
         html: [source_folder + "/*.html", "!" + source_folder + "/_*.html"],
         css: source_folder + "/scss/main.scss",
         js: source_folder + "/js/app.js",
         img: source_folder + "/img/**/*.{png,svg,jpg,gif,ico,webp}",
-        fonts: source_folder + "/fonts/*.ttf",
+        fonts: source_folder + "/fonts/**/*.ttf",
     },
     watch: {
         html: source_folder + "/**/*.html",

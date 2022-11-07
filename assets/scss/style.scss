@@ -1,0 +1,25 @@
+
+@mixin font($font_name, $file_name, $font_directory, $weight, $style) {
+  @font-face {
+      font-family: $font_name;
+      font-display: swap;
+      src: url("../fonts/#{$font_directory}/#{$file_name}.woff") format("woff"),
+          url("../fonts/#{$file_name}.woff2") format("woff2");
+      font-weight: #{$weight};
+      font-style: #{$style};
+  }
+}
+
+@import "fonts";
+
+body {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+
+  background-image: url("../img/background/vector_1440.svg");
+  background-repeat: no-repeat;
+  background-position: 0% 100%;
+  background-size: cover;
+}
+
+@import "main";

@@ -1,0 +1,124 @@
+@font-face {
+  font-family: "Roboto";
+  font-display: swap;
+  src: url("../fonts/Roboto/Roboto-Bold.woff") format("woff"), url("../fonts/Roboto-Bold.woff2") format("woff2");
+  font-weight: 700;
+  font-style: normal;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  background-image: url("../img/background/vector_1440.svg");
+  background-repeat: no-repeat;
+  background-position: 0% 100%;
+  background-size: cover;
+}
+
+main {
+  padding: 0 76px;
+  height: 100vh;
+}
+
+main section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-box-align: start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+main section .logo_block {
+  width: 600px;
+  margin-top: 40px;
+}
+
+main section .logo_block h1 {
+  font-weight: 700;
+  margin: 0;
+  color: #100caa;
+  text-transform: capitalize;
+  font-size: 60px;
+  line-height: 70px;
+}
+
+main section .logo_block h1 span {
+  color: #1ba80c;
+}
+
+main section .contacts {
+  max-width: 280px;
+  margin-top: 44px;
+}
+
+main section .contacts h2 {
+  margin: 0;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 33px;
+  color: #2e2d47;
+  margin-bottom: 22px;
+}
+
+main section .contacts .map_pointer {
+  width: 27px;
+  height: 40px;
+}
+
+main section .contacts .phone {
+  width: 26px;
+  height: 43px;
+}
+
+main section .contacts .email {
+  width: 32px;
+  height: 24px;
+}
+
+main section .contacts div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+main section .contacts div:not(:last-child) {
+  margin-bottom: 38px;
+}
+
+main section .contacts div img {
+  margin-right: 20px;
+}
+
+main section .contacts div a {
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  color: #2e2d47;
+}
+
+main .under {
+  position: absolute;
+  right: 76px;
+  bottom: 76px;
+  width: 680px;
+  height: auto;
+}
+@supports (-webkit-appearance:none){
+body{background-image:url("../img/background/vector_1440.svg")}
+}

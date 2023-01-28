@@ -8,6 +8,11 @@
         font-style: #{$style};
     }
 }
+@import "normalize";
 @import "fonts";
+
+* {
+    font-family: Roboto, sans-serif;
+}
 
 

@@ -1,7 +1,7 @@
 {
   "name": "gsways",
   "version": "0.0.1",
-  "description": "",
+  "description": "Enter to terminal: (npm init)\r Enter to terminal: (npm install)",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -22,7 +22,7 @@
     "gulp-group-css-media-queries": "^1.2.2",
     "gulp-imagemin": "^7.1.0",
     "gulp-rename": "^2.0.0",
-    "gulp-sass": "^4.1.0",
+    "gulp-sass": "^5.1.0",
     "gulp-ttf2woff": "^1.1.1",
     "gulp-ttf2woff2": "^4.0.1",
     "gulp-uglify": "^3.0.2",
@@ -30,5 +30,16 @@
     "gulp-webp": "^4.0.1",
     "gulp-webp-css": "^1.1.0",
     "gulp-webp-html": "^1.0.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DenysAptikieiev/gulp.git"
+  },
+  "bugs": {
+    "url": "https://github.com/DenysAptikieiev/gulp/issues"
+  },
+  "homepage": "https://github.com/DenysAptikieiev/gulp#readme",
+  "dependencies": {
+    "sass": "^1.58.3"
   }
 }

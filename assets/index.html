@@ -5,14 +5,45 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords"
+        content="TRANS, TRADE, GRAINS, CEREALS, LEGUMES, TRADING, CO, LLC, company, Ukrainian, agricultural, farmers, desirable, investments, quality, grain, oil-bearing, crops, legumes, fertilizers, shipping, freight">
+    <meta name="description"
+        content="TRANS TRADE GRAINS, CEREALS & LEGUMES TRADING CO LLC is a company specializing on the Ukrainian agricultural products. The superb Ukrainian fertile soils, the bountiful harvests, the hard-working farmers – everything makes Ukraine a desirable object for agricultural investments. The path to EU chosen by Ukraine demands to ensure high quality standards">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css">
     <link rel="stylesheet" href="css/main.min.css">
-    <title>gulp basic project</title>
+    <link rel="icon" type="image/x-icon" href="./img/ico/trans_trade_llc.ico">
+    <title>TRANS TRADE LLC</title>
 </head>
 
 <body>
-    @@include("_header.html")    
-    @@include("_main.html")    
-    @@include("_footer.html")    
+    @@include("_header.html")
+    @@include("_main.html")
+    @@include("_footer.html")
+    <script type="module">
+        import Swiper from 'https://unpkg.com/swiper@8/swiper-bundle.esm.browser.min.js'
+
+        const swiper = new Swiper('.swiper', {
+            direction: 'horizontal',
+            loop: true,
+
+            pagination: {
+                el: '.swiper-pagination',
+                type: 'bullets',
+                clickable: true,
+            },
+
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+            autoHeight: true,
+            spaceBetween: 10,
+            allowTouchMove: true,
+            mousewheel: {
+                invert: true,
+            },
+        });
+    </script>
     <script src="js/app.min.js"></script>
 </body>
 

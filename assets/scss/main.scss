@@ -10,9 +10,18 @@
 }
 @import "normalize";
 @import "fonts";
+@import "variables";
 
 * {
-    font-family: Roboto, sans-serif;
+    font-family: Merriweather, sans-serif;
 }
+
+.wrapper {
+    padding-left: 24px;
+    padding-right: 24px;
+}
+
+@import "header";
+
 
 

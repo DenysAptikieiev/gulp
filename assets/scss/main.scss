@@ -15,4 +15,60 @@
     font-family: Roboto, sans-serif;
 }
 
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+.category {
+    margin-bottom: 20px;
+}
+
+.category_wrapper {
+    display: flex;
+}
+
+.category h2 {
+    color: #555;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 5px;
+}
+
+.file {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 200px;
+    margin: 10px;
+    text-align: center;
+    vertical-align: top;
+}
+
+.file a {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+
+.file div {
+    width: 100px;
+    height: 140px;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+.file span {
+    display: block;
+    margin-top: 10px;
+}
+
+
+
+
 
